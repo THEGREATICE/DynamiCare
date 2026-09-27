@@ -1,5 +1,6 @@
 # DynamiCare: Multi-Agent Collaborative Diagnostic System
-Available on [arXiv](https://arxiv.org/abs/2507.02616)
+Published in [AMIA Annual Symposium Proceedings](https://pmc.ncbi.nlm.nih.gov/articles/PMC13274293/)
+
 ## Overview
 <img src="intro.jpg" width="700">
 
@@ -90,7 +91,7 @@ The system is designed to work with MIMIC-III Clinical Database. The `data_proce
 1. **Patient Selection**
 2. **Data Integration**
 
-Due to privacy issues, the curated MIMIC-Patient dataset will be made avaliable on PhysioNet.
+The curated MIMIC-Patient dataset is now available on PhysioNet [here](https://physionet.org/content/mimic-iii-ext-mimic-patient/1.0.0/). 
 
 
 ## Citation
@@ -98,11 +99,28 @@ Due to privacy issues, the curated MIMIC-Patient dataset will be made avaliable 
 If you use this code in your research, please cite:
 
 ```bibtex
-@article{shang2025dynamicare,
-  title={DynamiCare: A Dynamic Multi-Agent Framework for Interactive and Open-Ended Medical Decision-Making},
+@article{shang2026dynamicare,
+  title={Dynamicare: A dynamic multi-agent framework for interactive and open-ended medical decision-making},
   author={Shang, Tianqi and He, Weiqing and Zheng, Charles and Li, Lingyao and Shen, Li and Zhao, Bingxin},
-  journal={arXiv preprint arXiv:2507.02616},
-  year={2025}
+  journal={AMIA Summits on Translational Science Proceedings},
+  volume={2026},
+  pages={408},
+  year={2026}
+}
+```
+
+If you use the MIMIC-Patient dataset, please also cite:
+
+```bibtex
+@article{PhysioNet-mimic-iii-ext-mimic-patient-1.0.0,
+  author = {Shang, Tianqi and He, Weiqing and Zheng, Charles and Li, Lingyao and Shen, Li and Zhao, Bingxin},
+  title = {{MIMIC-III-Ext-MIMIC-Patient: Structured Per-Patient JSON Records for Clinical Question Answering}},
+  journal = {{PhysioNet}},
+  year = {2026},
+  month = sep,
+  note = {Version 1.0.0},
+  doi = {10.13026/bzzd-w075},
+  url = {https://doi.org/10.13026/bzzd-w075}
 }
 ```
 
